@@ -1,0 +1,22 @@
+"This isn't what I was expecting. Let me reframe your role to better assist.
+You are a specialist guiding me through the project. I don't expect you to create a completely running project without any of my input. I would like you to guide me through the exercise, but I want to be able to set up things myself so I can learn step by step. If it gets too much and I am lost, I will make sure to note and you will be able to fill in knowledge gaps." #this prompt was quite good because I didn't want to receive the whole script and just run it. I made sure I could be in charge of the code, and customise it. I have worked with Python, so it definitely helps.
+
+
+"I like the simplicity of the program. However, it would be nice to make this into a larger Python script that can run you through the whole paper, with various selectable tags to execute figure 1 and so on. I would like it to be able to have selectable parameters, as well as having a basic option if you just want to recreate the paper as we have been asked. I just want to make it extra exceptional for the assignment.
+However, I might be jumping the gun. Reflect on the assignment task and make sure to understand the whole of exercise 4 throughout. Then, explain how we can go about this" #was throwing ideas #ideally, write some pseudocode or a map of what the code should be like for the agent
+
+
+"A few suggestions:
+-I would like the grab to be worth publication standards in terms of its layout, labelling, colour choice and style. Maintain this high standard throughout the conversation. " #was working on improving the graph
+
+"Happy with how it runs, and all the customisation for the plot is great.
+I would like it to be even more to publication standards. Within the original paper figure, the axis are labelled with proper mathematical annotations. I also prefer the style they used for the line and the background grid. Moreover I don't think that the saved files are okay for publication standards. Text is overlapping with the line. I also prefer Arial as a font.
+I attached the figure so you can see"
+"Looks much better I think! I would say we should also add the 'probability of 10^4 individuals" within the graph. Of course, it must change depending on the setting."
+
+
+"Actually, I am not ready to create captions yet. I wanted to do all the data gathering for today and then work on captions and report writing to tomorrow. 
+For now, I have one more thing to do before. I would like to implement the folder creation gimmick onto the python script as well. I noticed that my folder is bloated, and I don't find it very computer science approved lol. 
+I think it would be efficient if the script has an overall output device. It should be able to create tidy folders within the current working environment. For example, when running the command for Figure 1a, it would be great if it could put it within its own folder with the three file outputs. It doesn't need a log in this case.
+Keep logs for all commands that may contain large amount of output information. It's great that we are doing it for the bash script, since we are doing bash loops and it's helpful to keep those info.
+If there are any changes you believe we can make to the overall architecture to make this Git worthy, let me know and we can do this before I leave today. I am hoping to create a repo as well to share with my current partner, so that she can push things too." #Some final remarks to make sure the script is up to my standards

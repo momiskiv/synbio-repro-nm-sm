@@ -1,0 +1,587 @@
+{
+  "purpose": "Bounded software diagnostics; not assignment-scale predictions.",
+  "software": {
+    "program_version": "0.10.0",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "pillow": "12.3.0",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "random_bit_generator": "PCG64",
+    "source_sha256": {
+      "__init__.py": "85355e86dcd3ba703a65950266037a756ceef35874cc63be463b03015e02ac24",
+      "__main__.py": "ca7722b7f890497e8c12333406f540c2b3337b0d6aa141e33fe348d0b9b0161e",
+      "batch.py": "c9118cfe9f5e4910b2eae71067efec942120664e59ac4d00eb325e69e0a75d65",
+      "batch_output.py": "9c6be989d095d9a24f8004cec856322aa6c7a8c32ef5d1ea1afa9147253040ea",
+      "binding.py": "1c5f02f0af61df5f05c10314fdcea5c7f2b767f7d2fca10b45c63040dcc7443f",
+      "binding_output.py": "74064172c7d708cbc0db99c46ca7af6af6e8ea4159bac871b22e7ce59fd6c351",
+      "cli.py": "acf1624a3665e7e6b88259599d9001635c54644874152862a332cee3df632081",
+      "model.py": "eb2f62350d7ca61e30cb371899e4b3968706e5161ce1445dcf2b4907ff186339",
+      "movement.py": "c563f5d3ad073d7c9791b2092f1ae9874f0f5072707c701685f27da5970e467d",
+      "movement_output.py": "dd70aa143dbb5b733c41cf915a265449f5a5fb14adbd93b1a17d94ce7dd43468",
+      "output.py": "8c4f4a666b7884583c288c7e2ec92c68d7f21d5e854f59a49add2cec4fcb0c3e",
+      "plotting.py": "5ea3ae4b6c97f95c3f04fa7a589717dd5792eea87765a5b5a629e76dddced82e",
+      "population.py": "1c3c24d76841a2bc770093c9c6ed412256f406c713407a5ef81eb9bd80b2fb71",
+      "population_output.py": "fa042cf4ad86663e504064ad2a5d2189f171883c46b89835b80ae867fe1b0896",
+      "progress.py": "9100e5fec7ea57e48e325b819f41119a934b6edd9c57344515ce8c25eaf0a1e8",
+      "rates.py": "fb6b7a124ba5d94f3456819f1987a2482017096b874d05206b0c9503e4413242",
+      "response.py": "c19faac0756296207a36c317c3a4a54f0b8e82d49ba471cb9718175225b1d115",
+      "response_output.py": "72d27c2f36a8bdf4341d24cbfe1191c0a2b08f5f696f5157cb872ba7bf4ad62b",
+      "spatial.py": "f525aa07999fda6c73bd0c317f732e0c179fd89942fa5eecce542ccd7d7d06bc",
+      "spatial_output.py": "2e3399e8aa3771a827e8aa6d873159611c815eaa5e527f853e7a1eaa7194968b",
+      "timing.py": "d45f5a1bfcaf0e4f727fdbdaaea2f475d10d04fd7dfce09c3891d774d6274fe3"
+    }
+  },
+  "case": "crowded-pb",
+  "repeats": 3,
+  "source_root": "/workspace/scratch/321a8832731c/tmp/concentration-build-Xlkh8B/polymer-clustering",
+  "timing_scope": "Unprofiled solver/cache work only; no plotting or file output.",
+  "results": [
+    {
+      "polymers": 1000,
+      "seed": 2026,
+      "wall_seconds": [
+        0.5802290350000021,
+        0.57256374900021,
+        0.5378978000001098
+      ],
+      "cpu_seconds": [
+        0.580184161,
+        0.566618496,
+        0.5378117690000002
+      ],
+      "median_wall_seconds": 0.57256374900021,
+      "median_cpu_seconds": 0.566618496,
+      "result_sha256": "7e88d614ed8658f93aed19aef8ca976934ef2743372cfb0d8f917fff4b662be7",
+      "events": 10,
+      "cycles": 5,
+      "profile_total_seconds": 0.9205689450000001,
+      "profile_top_cumulative": [
+        {
+          "file": "profile_solver.py",
+          "line": 165,
+          "function": "run",
+          "calls": 1,
+          "own_seconds": 0.00024591200000000004,
+          "cumulative_seconds": 0.920546081
+        },
+        {
+          "file": "movement.py",
+          "line": 312,
+          "function": "event",
+          "calls": 10,
+          "own_seconds": 8.738200000000001e-05,
+          "cumulative_seconds": 0.9186879530000001
+        },
+        {
+          "file": "movement.py",
+          "line": 230,
+          "function": "rebuild",
+          "calls": 10,
+          "own_seconds": 0.023175225,
+          "cumulative_seconds": 0.905230011
+        },
+        {
+          "file": "movement.py",
+          "line": 278,
+          "function": "refresh_site",
+          "calls": 25000,
+          "own_seconds": 0.10903430900000001,
+          "cumulative_seconds": 0.6155267120000001
+        },
+        {
+          "file": "rates.py",
+          "line": 43,
+          "function": "update",
+          "calls": 70000,
+          "own_seconds": 0.171179497,
+          "cumulative_seconds": 0.210101809
+        },
+        {
+          "file": "binding.py",
+          "line": 245,
+          "function": "polymer_reactions",
+          "calls": 10000,
+          "own_seconds": 0.07154497900000001,
+          "cumulative_seconds": 0.166975501
+        },
+        {
+          "file": "movement.py",
+          "line": 96,
+          "function": "cluster_can_move",
+          "calls": 160,
+          "own_seconds": 0.013152139,
+          "cumulative_seconds": 0.09631729200000001
+        },
+        {
+          "file": "movement.py",
+          "line": 297,
+          "function": "refresh_polymer_motion",
+          "calls": 10000,
+          "own_seconds": 0.027054085000000002,
+          "cumulative_seconds": 0.0895629
+        },
+        {
+          "file": "_arraysetops_impl.py",
+          "line": 1060,
+          "function": "isin",
+          "calls": 3160,
+          "own_seconds": 0.003001534,
+          "cumulative_seconds": 0.07454831
+        },
+        {
+          "file": "_arraysetops_impl.py",
+          "line": 908,
+          "function": "_in1d",
+          "calls": 3160,
+          "own_seconds": 0.033025812,
+          "cumulative_seconds": 0.070255327
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 64689,
+          "own_seconds": 0.06644984200000001,
+          "cumulative_seconds": 0.06644984200000001
+        },
+        {
+          "file": "movement.py",
+          "line": 66,
+          "function": "signal_mobility",
+          "calls": 25000,
+          "own_seconds": 0.050358526,
+          "cumulative_seconds": 0.056685879
+        },
+        {
+          "file": "binding.py",
+          "line": 254,
+          "function": "add",
+          "calls": 40925,
+          "own_seconds": 0.029262787000000002,
+          "cumulative_seconds": 0.054028466000000004
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'numpy.ndarray' objects>",
+          "calls": 35013,
+          "own_seconds": 0.010118821,
+          "cumulative_seconds": 0.053513536
+        },
+        {
+          "file": "movement.py",
+          "line": 77,
+          "function": "clusters",
+          "calls": 10,
+          "own_seconds": 0.016820536,
+          "cumulative_seconds": 0.048091638000000006
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 611681,
+          "own_seconds": 0.043587916000000004,
+          "cumulative_seconds": 0.043587916000000004
+        },
+        {
+          "file": "_methods.py",
+          "line": 49,
+          "function": "_sum",
+          "calls": 35013,
+          "own_seconds": 0.006710263,
+          "cumulative_seconds": 0.043394715
+        },
+        {
+          "file": "fromnumeric.py",
+          "line": 2589,
+          "function": "all",
+          "calls": 20001,
+          "own_seconds": 0.008190026000000001,
+          "cumulative_seconds": 0.041288995
+        },
+        {
+          "file": "fromnumeric.py",
+          "line": 89,
+          "function": "_wrapreduction_any_all",
+          "calls": 23354,
+          "own_seconds": 0.014774058000000001,
+          "cumulative_seconds": 0.039940376
+        },
+        {
+          "file": "numeric.py",
+          "line": 680,
+          "function": "flatnonzero",
+          "calls": 10010,
+          "own_seconds": 0.009618304000000001,
+          "cumulative_seconds": 0.032853069
+        }
+      ]
+    },
+    {
+      "polymers": 3000,
+      "seed": 2026,
+      "wall_seconds": [
+        1.0398740549999275,
+        1.0756212369999503,
+        1.0474744660000397
+      ],
+      "cpu_seconds": [
+        1.0398464379999997,
+        1.0755680229999998,
+        1.0473978750000006
+      ],
+      "median_wall_seconds": 1.0474744660000397,
+      "median_cpu_seconds": 1.0473978750000006,
+      "result_sha256": "28abcc04e9bc5044dcf1a743c9a6e77c93d4f27f42067707eb96a64a11480707",
+      "events": 10,
+      "cycles": 5,
+      "profile_total_seconds": 1.8030032630000004,
+      "profile_top_cumulative": [
+        {
+          "file": "profile_solver.py",
+          "line": 165,
+          "function": "run",
+          "calls": 1,
+          "own_seconds": 0.00023371900000000002,
+          "cumulative_seconds": 1.802978055
+        },
+        {
+          "file": "movement.py",
+          "line": 312,
+          "function": "event",
+          "calls": 10,
+          "own_seconds": 0.00012010400000000001,
+          "cumulative_seconds": 1.8000952970000001
+        },
+        {
+          "file": "movement.py",
+          "line": 230,
+          "function": "rebuild",
+          "calls": 10,
+          "own_seconds": 0.10706642000000001,
+          "cumulative_seconds": 1.7596370170000002
+        },
+        {
+          "file": "movement.py",
+          "line": 278,
+          "function": "refresh_site",
+          "calls": 25000,
+          "own_seconds": 0.140153272,
+          "cumulative_seconds": 1.055383926
+        },
+        {
+          "file": "binding.py",
+          "line": 245,
+          "function": "polymer_reactions",
+          "calls": 30000,
+          "own_seconds": 0.161464567,
+          "cumulative_seconds": 0.45912992900000005
+        },
+        {
+          "file": "rates.py",
+          "line": 43,
+          "function": "update",
+          "calls": 110000,
+          "own_seconds": 0.29227970000000003,
+          "cumulative_seconds": 0.35874727500000003
+        },
+        {
+          "file": "movement.py",
+          "line": 297,
+          "function": "refresh_polymer_motion",
+          "calls": 30000,
+          "own_seconds": 0.084521197,
+          "cumulative_seconds": 0.290836714
+        },
+        {
+          "file": "binding.py",
+          "line": 254,
+          "function": "add",
+          "calls": 122685,
+          "own_seconds": 0.086118978,
+          "cumulative_seconds": 0.17203283800000002
+        },
+        {
+          "file": "movement.py",
+          "line": 77,
+          "function": "clusters",
+          "calls": 10,
+          "own_seconds": 0.049777829,
+          "cumulative_seconds": 0.14854572100000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 124689,
+          "own_seconds": 0.13516887400000002,
+          "cumulative_seconds": 0.13516887400000002
+        },
+        {
+          "file": "fromnumeric.py",
+          "line": 2589,
+          "function": "all",
+          "calls": 60001,
+          "own_seconds": 0.024821998,
+          "cumulative_seconds": 0.131603793
+        },
+        {
+          "file": "fromnumeric.py",
+          "line": 89,
+          "function": "_wrapreduction_any_all",
+          "calls": 63354,
+          "own_seconds": 0.040907056000000004,
+          "cumulative_seconds": 0.11427184100000001
+        },
+        {
+          "file": "movement.py",
+          "line": 96,
+          "function": "cluster_can_move",
+          "calls": 160,
+          "own_seconds": 0.014413428,
+          "cumulative_seconds": 0.102021072
+        },
+        {
+          "file": "numeric.py",
+          "line": 680,
+          "function": "flatnonzero",
+          "calls": 30010,
+          "own_seconds": 0.028845233,
+          "cumulative_seconds": 0.099541765
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'numpy.ndarray' objects>",
+          "calls": 55013,
+          "own_seconds": 0.015766341,
+          "cumulative_seconds": 0.087602752
+        },
+        {
+          "file": "_arraysetops_impl.py",
+          "line": 1060,
+          "function": "isin",
+          "calls": 3160,
+          "own_seconds": 0.0034699600000000002,
+          "cumulative_seconds": 0.078468807
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 1026721,
+          "own_seconds": 0.077185194,
+          "cumulative_seconds": 0.077185194
+        },
+        {
+          "file": "_arraysetops_impl.py",
+          "line": 908,
+          "function": "_in1d",
+          "calls": 3160,
+          "own_seconds": 0.035175081000000004,
+          "cumulative_seconds": 0.07364324900000001
+        },
+        {
+          "file": "_methods.py",
+          "line": 49,
+          "function": "_sum",
+          "calls": 55013,
+          "own_seconds": 0.010351345000000001,
+          "cumulative_seconds": 0.071836411
+        },
+        {
+          "file": "<string>",
+          "line": 2,
+          "function": "__init__",
+          "calls": 111285,
+          "own_seconds": 0.070159924,
+          "cumulative_seconds": 0.070159924
+        }
+      ]
+    },
+    {
+      "polymers": 7000,
+      "seed": 2026,
+      "wall_seconds": [
+        1.9304841199998464,
+        1.9948669619998327,
+        2.0099292150000565
+      ],
+      "cpu_seconds": [
+        1.930349851999999,
+        1.9946966180000008,
+        2.00981247
+      ],
+      "median_wall_seconds": 1.9948669619998327,
+      "median_cpu_seconds": 1.9946966180000008,
+      "result_sha256": "bd5e7c413564701d9910ff96bd76be397ee7ce29d5933af40ed53d2e09e81dbc",
+      "events": 10,
+      "cycles": 5,
+      "profile_total_seconds": 3.4097683159999996,
+      "profile_top_cumulative": [
+        {
+          "file": "profile_solver.py",
+          "line": 165,
+          "function": "run",
+          "calls": 1,
+          "own_seconds": 0.000245304,
+          "cumulative_seconds": 3.4097439300000003
+        },
+        {
+          "file": "movement.py",
+          "line": 312,
+          "function": "event",
+          "calls": 10,
+          "own_seconds": 0.00010954000000000001,
+          "cumulative_seconds": 3.404692631
+        },
+        {
+          "file": "movement.py",
+          "line": 230,
+          "function": "rebuild",
+          "calls": 10,
+          "own_seconds": 0.13901417100000002,
+          "cumulative_seconds": 3.309542974
+        },
+        {
+          "file": "movement.py",
+          "line": 278,
+          "function": "refresh_site",
+          "calls": 25000,
+          "own_seconds": 0.187569396,
+          "cumulative_seconds": 1.8971304670000002
+        },
+        {
+          "file": "binding.py",
+          "line": 245,
+          "function": "polymer_reactions",
+          "calls": 70000,
+          "own_seconds": 0.407190804,
+          "cumulative_seconds": 1.054431004
+        },
+        {
+          "file": "movement.py",
+          "line": 297,
+          "function": "refresh_polymer_motion",
+          "calls": 70000,
+          "own_seconds": 0.22368326700000002,
+          "cumulative_seconds": 0.749354037
+        },
+        {
+          "file": "rates.py",
+          "line": 43,
+          "function": "update",
+          "calls": 190000,
+          "own_seconds": 0.5346351610000001,
+          "cumulative_seconds": 0.663184203
+        },
+        {
+          "file": "binding.py",
+          "line": 254,
+          "function": "add",
+          "calls": 291085,
+          "own_seconds": 0.183621488,
+          "cumulative_seconds": 0.35828020000000005
+        },
+        {
+          "file": "movement.py",
+          "line": 77,
+          "function": "clusters",
+          "calls": 10,
+          "own_seconds": 0.11412249000000001,
+          "cumulative_seconds": 0.34018596
+        },
+        {
+          "file": "fromnumeric.py",
+          "line": 2589,
+          "function": "all",
+          "calls": 140001,
+          "own_seconds": 0.059629931000000004,
+          "cumulative_seconds": 0.31732230100000003
+        },
+        {
+          "file": "fromnumeric.py",
+          "line": 89,
+          "function": "_wrapreduction_any_all",
+          "calls": 143354,
+          "own_seconds": 0.098217967,
+          "cumulative_seconds": 0.264697919
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'reduce' of 'numpy.ufunc' objects>",
+          "calls": 244689,
+          "own_seconds": 0.263390559,
+          "cumulative_seconds": 0.263390559
+        },
+        {
+          "file": "numeric.py",
+          "line": 680,
+          "function": "flatnonzero",
+          "calls": 70010,
+          "own_seconds": 0.066277681,
+          "cumulative_seconds": 0.22539143
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'sum' of 'numpy.ndarray' objects>",
+          "calls": 95013,
+          "own_seconds": 0.028465908,
+          "cumulative_seconds": 0.15568093400000002
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<built-in method builtins.len>",
+          "calls": 1903121,
+          "own_seconds": 0.150951115,
+          "cumulative_seconds": 0.150951115
+        },
+        {
+          "file": "<string>",
+          "line": 2,
+          "function": "__init__",
+          "calls": 209685,
+          "own_seconds": 0.13239839,
+          "cumulative_seconds": 0.13239839
+        },
+        {
+          "file": "_methods.py",
+          "line": 49,
+          "function": "_sum",
+          "calls": 95013,
+          "own_seconds": 0.020762884000000002,
+          "cumulative_seconds": 0.127215026
+        },
+        {
+          "file": "movement.py",
+          "line": 96,
+          "function": "cluster_can_move",
+          "calls": 160,
+          "own_seconds": 0.013732354,
+          "cumulative_seconds": 0.099207478
+        },
+        {
+          "file": "movement.py",
+          "line": 112,
+          "function": "retether",
+          "calls": 10,
+          "own_seconds": 0.09051962300000001,
+          "cumulative_seconds": 0.09461625500000001
+        },
+        {
+          "file": "~",
+          "line": 0,
+          "function": "<method 'ravel' of 'numpy.ndarray' objects>",
+          "calls": 442071,
+          "own_seconds": 0.080740724,
+          "cumulative_seconds": 0.080740724
+        }
+      ]
+    }
+  ]
+}

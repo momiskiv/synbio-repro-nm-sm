@@ -1,0 +1,10 @@
+Validated 22 October 2026
+
+Recovery regression tests: 10 passed.
+Existing controller regression tests on the patched source: 14 passed.
+Actual CLI finalization fixture: 4 completed jobs retained, zero pending, no simulation children; two unavailable old invocation durations kept unknown; ensemble saved and batch status complete.
+Only batch.py changes among the 21 reviewed package modules. All six numerical modules remain byte-identical to released v0.11.1.
+Original batch.py SHA256: 8c372950cf1c89690bd7677ad35f83f15fa806987f28ae71c9b9abf46a46312f
+Patched batch.py SHA256: 356a9a3fb1b814f3050138cefa3b81fba5e4041fd9a83f8fba736cdea5c0a65b
+
+Checks used synthetic balanced fixtures. No assignment simulation data was generated. The user's existing 80-run outputs were independently checked from their uploaded summaries; their individual local run files are validated by the installer on the laptop before applying changes.

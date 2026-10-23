@@ -1,0 +1,61 @@
+{
+  "base_parameters": {
+    "mode": "full",
+    "grid_size": 50,
+    "bacteria": 25,
+    "strain": "BB170",
+    "rng_scheme": "independent_v1",
+    "duration": 30000.0,
+    "sample_interval": 100.0,
+    "max_events": 100000000,
+    "k_bs_on": 0.001,
+    "k_bs_off": 0.002,
+    "k_pb_on": 0.005,
+    "k_pb_off": 0.001,
+    "k_ps_on": 0.01,
+    "k_ps_off": 0.001,
+    "d_s": 0.05,
+    "d_p": 0.01,
+    "d_b": 0.0005,
+    "obstruction_factor": 0.1,
+    "crowding_lambda": 8.0,
+    "advection": true,
+    "validate_every": 1000,
+    "spatial_frames": 61,
+    "event_log": "compact",
+    "k_syn": 0.05,
+    "k_deg": 0.01,
+    "response_initial": 0.0,
+    "response_midpoint": 15.0,
+    "light_scale": 2500.0,
+    "light_map_max": 5000.0,
+    "growth": true,
+    "doubling_time": 15000.0,
+    "division_width": 20000.0,
+    "population_cap": 80,
+    "division_retry": 100.0,
+    "production_rate": 0.005,
+    "daughter_expression": 0.0,
+    "font_family": "Arial",
+    "font_path": null,
+    "strict_font": false,
+    "ps_crowding_threshold": 10
+  },
+  "conditions": [
+    {
+      "name": "no_polymer",
+      "overrides": {
+        "polymers": 0
+      }
+    },
+    {
+      "name": "p3_1000",
+      "overrides": {
+        "polymers": 1000
+      }
+    }
+  ],
+  "seeds": [
+    2026
+  ]
+}

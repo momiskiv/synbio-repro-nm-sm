@@ -1,0 +1,45 @@
+--- polymer_clustering/batch.py (v0.11.1 original)
++++ polymer_clustering/batch.py (reviewed timing fix)
+@@ -499,6 +499,31 @@
+         return 1
+ 
+ 
++def record_controller_wall_time(manifest: dict) -> None:
++    """Keep interrupted invocation times unknown while summing measured times.
++
++    A reboot can prevent the finally block from recording an elapsed duration.
++    UTC start/finish labels cannot recover a monotonic-clock measurement. Keep
++    that gap explicit instead of inventing zero seconds or including downtime.
++    """
++    recorded = []
++    missing = 0
++    for invocation in manifest["invocations"]:
++        elapsed = invocation.get("wall_seconds")
++        if elapsed is None:
++            missing += 1
++            invocation["timing_status"] = "unavailable_after_interruption"
++        elif (type(elapsed) not in (int, float)
++              or not math.isfinite(elapsed) or elapsed < 0):
++            raise ValueError("Invalid recorded invocation wall time.")
++        else:
++            recorded.append(elapsed)
++    measured = math.fsum(recorded)
++    manifest["controller_wall_seconds_recorded_invocations"] = measured
++    manifest["controller_wall_seconds_missing_invocations"] = missing
++    manifest["controller_wall_seconds_all_invocations"] = None if missing else measured
++
++
+ def finish_batch(directory: Path, manifest: dict, imports: list, workers: int,
+                  overall_start: float, progress="auto") -> int:
+     """Persist the request before importing or launching; retain failures for resume."""
+@@ -535,9 +560,7 @@
+     finally:
+         elapsed = time.perf_counter() - overall_start
+         manifest["invocations"][-1].update(finished_utc=utc_now(), wall_seconds=elapsed)
+-        manifest["controller_wall_seconds_all_invocations"] = sum(
+-            i["wall_seconds"] for i in manifest["invocations"]
+-        )
++        record_controller_wall_time(manifest)
+         write_json(directory / "batch.json", manifest)
+         print(f"Batch runtime this invocation: {elapsed:.3f} s. Outputs: {directory}")
+     return code

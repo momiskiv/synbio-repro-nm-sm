@@ -1,0 +1,47 @@
+LOCUS       Gib_GFP                  791 bp    DNA     linear   SYN 15-OCT-2026
+DEFINITION  description.
+ACCESSION  8
+VERSION  8
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     CDS             26..766
+                     /label="GFP-GS-His6"
+                     /product="GFP with C-terminal Gly-Ser-His6 tag"
+                     /translation="MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTL
+                     KFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKD
+                     DGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNG
+                     IKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHM
+                     VLLEFVTAAGITHGMDELYKGSHHHHHH"
+     misc_feature    740..745
+                     /label="Gly-Ser linker"
+     misc_feature    746..763
+                     /label="His6 tag"
+     primer_bind     1..49
+                     /label="Gib_GFP_F"
+                     /note="sequence: TGCATGCCTGCAGGTCGACTCTAGAATGAGTAAAGGAGAAG
+                     AACTTTTC"
+                     /primerBindsOn="3prime"
+     primer_bind     complement(743..791)
+                     /label="Gib_GFP_R"
+                     /note="sequence: ACGACGTTGTAAAACGACGGCCAGTTTAGTGGTGGTGGTGG
+                     TGGTGGGA"
+                     /primerBindsOn="3prime"
+ORIGIN      
+        1 tgcatgcctg caggtcgact ctagaatgag taaaggagaa gaacttttca ctggagttgt
+       61 cccaattctt gttgaattag atggtgatgt taatgggcac aaattttctg tcagtggaga
+      121 gggtgaaggt gatgcaacat acggaaaact tacccttaaa tttatttgca ctactggaaa
+      181 actacctgtt ccatggccaa cacttgtcac tactttctct tatggtgttc aatgcttttc
+      241 aagataccca gatcatatga aacagcatga ctttttcaag agtgccatgc ccgaaggtta
+      301 tgtacaggaa agaactatat ttttcaaaga tgacgggaac tacaagacac gtgctgaagt
+      361 caagtttgaa ggtgataccc ttgttaatag aatcgagtta aaaggtattg attttaaaga
+      421 agatggaaac attcttggac acaaattgga atacaactat aactcacaca atgtatacat
+      481 catggcagac aaacaaaaga atggaatcaa agttaacttc aaaattagac acaacattga
+      541 agatggaagc gttcaactag cagaccatta tcaacaaaat actccaattg gcgatggccc
+      601 tgtcctttta ccagacaacc attacctgtc cacacaatct gccctttcga aagatcccaa
+      661 cgaaaagaga gaccacatgg tccttcttga gtttgtaaca gctgctggga ttacacatgg
+      721 catggatgaa ctatacaaag gttcccacca ccaccaccac cactaaactg gccgtcgttt
+      781 tacaacgtcg t    
+//

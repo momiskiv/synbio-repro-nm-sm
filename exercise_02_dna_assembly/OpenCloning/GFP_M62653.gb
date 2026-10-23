@@ -1,0 +1,62 @@
+LOCUS       AEVGFPA                  966 bp    mRNA    linear   INV 26-APR-1993
+DEFINITION  Aequorea victoria green-fluorescent protein mRNA, complete cds.
+ACCESSION   M62653
+VERSION     M62653.1
+KEYWORDS    aequorin-associated energy-transfer acceptor; bioluminescence;
+            green-fluorescent protein; photocyte.
+SOURCE      Aequorea victoria
+  ORGANISM  Aequorea victoria
+            Eukaryota; Metazoa; Cnidaria; Hydrozoa; Hydroidolina; Leptothecata;
+            Aequoreidae; Aequorea.
+REFERENCE   1  (bases 1 to 966)
+  AUTHORS   Prasher,D.C., Eckenrode,V.K., Ward,W.W., Prendergast,F.G. and
+            Cormier,M.J.
+  TITLE     Primary structure of the Aequorea victoria green-fluorescent
+            protein
+  JOURNAL   Gene 111 (2), 229-233 (1992)
+   PUBMED   1347277
+COMMENT     Original source text: Aequorea victoria (library: lambda gt10) cDNA
+            to mRNA.
+FEATURES             Location/Qualifiers
+     source          1..966
+                     /organism="Aequorea victoria"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:6100"
+                     /tissue_lib="lambda gt10"
+     gene            1..966
+                     /gene="GFP"
+     CDS             26..742
+                     /gene="GFP"
+                     /codon_start=1
+                     /product="green-fluorescent protein"
+                     /protein_id="AAA27721.1"
+                     /translation="MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTL
+                     KFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKD
+                     DGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNG
+                     IKVNFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHM
+                     VLLEFVTAAGITHGMDELYK"
+     misc_feature    218..226
+                     /gene="GFP"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="fluorescent chromophore"
+ORIGIN      
+        1 tacacacgaa taaaagataa caaagatgag taaaggagaa gaacttttca ctggagttgt
+       61 cccaattctt gttgaattag atggtgatgt taatgggcac aaattttctg tcagtggaga
+      121 gggtgaaggt gatgcaacat acggaaaact tacccttaaa tttatttgca ctactggaaa
+      181 actacctgtt ccatggccaa cacttgtcac tactttctct tatggtgttc aatgcttttc
+      241 aagataccca gatcatatga aacagcatga ctttttcaag agtgccatgc ccgaaggtta
+      301 tgtacaggaa agaactatat ttttcaaaga tgacgggaac tacaagacac gtgctgaagt
+      361 caagtttgaa ggtgataccc ttgttaatag aatcgagtta aaaggtattg attttaaaga
+      421 agatggaaac attcttggac acaaattgga atacaactat aactcacaca atgtatacat
+      481 catggcagac aaacaaaaga atggaatcaa agttaacttc aaaattagac acaacattga
+      541 agatggaagc gttcaactag cagaccatta tcaacaaaat actccaattg gcgatggccc
+      601 tgtcctttta ccagacaacc attacctgtc cacacaatct gccctttcga aagatcccaa
+      661 cgaaaagaga gaccacatgg tccttcttga gtttgtaaca gctgctggga ttacacatgg
+      721 catggatgaa ctatacaaat aaatgtccag acttccaatt gacactaaag tgtccgaaca
+      781 attactaaaa tctcagggtt cctggttaaa ttcaggctga gatattattt atatatttat
+      841 agattcatta aaattgtatg aataatttat tgatgttatt gatagaggtt attttcttat
+      901 taaacaggct acttggagtg tattcttaat tctatattaa ttacaatttg atttgacttg
+      961 ctcaaa
+//
+

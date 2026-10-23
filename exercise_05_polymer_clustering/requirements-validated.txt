@@ -1,0 +1,6 @@
+# Direct runtime dependencies used for spatial, response, and population validation.
+# Python 3.12.14; record the actual Python version in each run.json.
+numpy==2.3.5
+matplotlib==3.10.8
+Pillow==12.3.0
+

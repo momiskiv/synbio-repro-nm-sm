@@ -1,0 +1,40 @@
+{
+  "base_parameters": {
+    "mode": "full",
+    "rng_scheme": "independent_v1",
+    "grid_size": 8,
+    "bacteria": 1,
+    "strain": "BB170",
+    "duration": 2.0,
+    "sample_interval": 1.0,
+    "spatial_frames": 2,
+    "max_events": 10000,
+    "doubling_time": 1.0,
+    "division_width": 0.0,
+    "population_cap": 4,
+    "production_rate": 10.0,
+    "k_pb_on": 0.005,
+    "k_pb_off": 0.001,
+    "k_ps_on": 0.01,
+    "k_ps_off": 0.001,
+    "light_map_max": 5000.0
+  },
+  "conditions": [
+    {
+      "name": "control",
+      "overrides": {
+        "polymers": 0
+      }
+    },
+    {
+      "name": "polymer",
+      "overrides": {
+        "polymers": 4
+      }
+    }
+  ],
+  "seeds": [
+    21,
+    22
+  ]
+}

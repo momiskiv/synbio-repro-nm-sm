@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synbio-polymer-clustering"
+version = "0.11.1"
+description = "Documented reconstruction of the Lui et al. (2013) spatial model: population model with reproducible replicate batches"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "matplotlib>=3.8,<4", "Pillow>=10,<13"]
+readme = "README.md"
+
+[project.scripts]
+polymer-clustering = "polymer_clustering.cli:main"
+polymer-clustering-batch = "polymer_clustering.batch:main"
+polymer-clustering-spatial = "polymer_clustering.spatial:main"
+
+[tool.setuptools.packages.find]
+include = ["polymer_clustering*"]
+
+[tool.ruff]
+line-length = 96
+target-version = "py311"
+

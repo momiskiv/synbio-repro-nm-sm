@@ -1,0 +1,3 @@
+id,name,sequence,length,melting_temperature,gc_content,homodimer_melting_temperature,homodimer_deltaG,hairpin_melting_temperature,hairpin_deltaG,pcr_source_id,binding_length,binding_melting_temperature,binding_gc_content,heterodimer_melting_temperature,heterodimer_deltaG
+4,GFP_GS_His6_BamHI_F,GACTACGGATCCATGAGTAAAGGAGAAGAACTTTTC,36,66.3,42,13.4,-6342,37.9,-99,6,24,54.8,33,2,-5358
+5,GFP_GS_His6_EcoRI_R,CGTACAGAATTCTTAGTGGTGGTGGTGGTGGTGGGAACCTTTGTATAGTTCATCCATGCCATG,63,78.5,48,4.9,-5228,57.1,-982,6,24,57.4,38,2,-5358

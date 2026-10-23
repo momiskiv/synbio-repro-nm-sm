@@ -1,0 +1,224 @@
+{
+  "sequences": [
+    {
+      "id": 1,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       SYNPUC19V               2686 bp    DNA     circular SYN 07-AUG-2008\nDEFINITION  Cloning vector pUC19, complete sequence.\nACCESSION   M77789\nVERSION     M77789.2\nKEYWORDS    .\nSOURCE      Cloning vector pUC19\n  ORGANISM  Cloning vector pUC19\n            other sequences; artificial sequences; vectors.\nREFERENCE   1  (bases 1 to 2686)\n  AUTHORS   Norrander,J., Kempe,T. and Messing,J.\n  TITLE     Construction of improved M13 vectors using\n            oligodeoxynucleotide-directed mutagenesis\n  JOURNAL   Gene 26 (1), 101-106 (1983)\n   PUBMED   6323249\nREFERENCE   2  (bases 1 to 2686)\n  AUTHORS   Yanisch-Perron,C., Vieira,J. and Messing,J.\n  TITLE     Improved M13 phage cloning vectors and host strains: nucleotide\n            sequences of the M13mp18 and pUC19 vectors\n  JOURNAL   Gene 33 (1), 103-119 (1985)\n   PUBMED   2985470\n  REMARK    Erratum:[Gene. 1992 May 1;114(1):81-3. PMID: 1375182]\nREFERENCE   3  (bases 1 to 2686)\n  AUTHORS   Messing,J.\n  TITLE     Direct Submission\n  JOURNAL   Submitted (27-SEP-1991) Waksman Institute, Rutgers State Univ., 190\n            Frelinghuysen Road, Piscataway, NJ 08854, USA\nREFERENCE   4  (bases 1 to 2686)\n  AUTHORS   Messing,J.\n  TITLE     Direct Submission\n  JOURNAL   Submitted (12-JAN-2000) Waksman Institute, Rutgers State Univ., 190\n            Frelinghuysen Road, Piscataway, NJ 08854, USA\n  REMARK    Sequence update by submitter\nCOMMENT     On Jan 12, 2000 this sequence version replaced M77789.1.\nFEATURES             Location/Qualifiers\n     source          1..2686\n                     /organism=\"Cloning vector pUC19\"\n                     /mol_type=\"other DNA\"\n                     /strain=\"ATCC 37254\"\n                     /culture_collection=\"ATCC:37254\"\n                     /db_xref=\"taxon:31851\"\n     misc_feature    1..447\n                     /note=\"M13mp19\"\n     misc_feature    1..230\n                     /note=\"Lac-operon\"\n     misc_feature    233..289\n                     /note=\"polylinker of M13mp19;\n                     HindIII-SphI-PstI-SalI-XbaI-BamHI-SmaI-KpnI-SacI-EcoRI\"\n     misc_feature    290..447\n                     /note=\"Lac-Operon\"\n     misc_feature    complement(448..547)\n                     /note=\"pBR322\"\n     misc_feature    complement(548..684)\n                     /note=\"pBR322\"\n     misc_feature    complement(685..2686)\n                     /note=\"pBR322\"\nORIGIN\n        1 gcgcccaata cgcaaaccgc ctctccccgc gcgttggccg attcattaat gcagctggca\n       61 cgacaggttt cccgactgga aagcgggcag tgagcgcaac gcaattaatg tgagttagct\n      121 cactcattag gcaccccagg ctttacactt tatgcttccg gctcgtatgt tgtgtggaat\n      181 tgtgagcgga taacaatttc acacaggaaa cagctatgac catgattacg ccaagcttgc\n      241 atgcctgcag gtcgactcta gaggatcccc gggtaccgag ctcgaattca ctggccgtcg\n      301 ttttacaacg tcgtgactgg gaaaaccctg gcgttaccca acttaatcgc cttgcagcac\n      361 atcccccttt cgccagctgg cgtaatagcg aagaggcccg caccgatcgc ccttcccaac\n      421 agttgcgcag cctgaatggc gaatggcgcc tgatgcggta ttttctcctt acgcatctgt\n      481 gcggtatttc acaccgcata tggtgcactc tcagtacaat ctgctctgat gccgcatagt\n      541 taagccagcc ccgacacccg ccaacacccg ctgacgcgcc ctgacgggct tgtctgctcc\n      601 cggcatccgc ttacagacaa gctgtgaccg tctccgggag ctgcatgtgt cagaggtttt\n      661 caccgtcatc accgaaacgc gcgagacgaa agggcctcgt gatacgccta tttttatagg\n      721 ttaatgtcat gataataatg gtttcttaga cgtcaggtgg cacttttcgg ggaaatgtgc\n      781 gcggaacccc tatttgttta tttttctaaa tacattcaaa tatgtatccg ctcatgagac\n      841 aataaccctg ataaatgctt caataatatt gaaaaaggaa gagtatgagt attcaacatt\n      901 tccgtgtcgc ccttattccc ttttttgcgg cattttgcct tcctgttttt gctcacccag\n      961 aaacgctggt gaaagtaaaa gatgctgaag atcagttggg tgcacgagtg ggttacatcg\n     1021 aactggatct caacagcggt aagatccttg agagttttcg ccccgaagaa cgttttccaa\n     1081 tgatgagcac ttttaaagtt ctgctatgtg gcgcggtatt atcccgtatt gacgccgggc\n     1141 aagagcaact cggtcgccgc atacactatt ctcagaatga cttggttgag tactcaccag\n     1201 tcacagaaaa gcatcttacg gatggcatga cagtaagaga attatgcagt gctgccataa\n     1261 ccatgagtga taacactgcg gccaacttac ttctgacaac gatcggagga ccgaaggagc\n     1321 taaccgcttt tttgcacaac atgggggatc atgtaactcg ccttgatcgt tgggaaccgg\n     1381 agctgaatga agccatacca aacgacgagc gtgacaccac gatgcctgta gcaatggcaa\n     1441 caacgttgcg caaactatta actggcgaac tacttactct agcttcccgg caacaattaa\n     1501 tagactggat ggaggcggat aaagttgcag gaccacttct gcgctcggcc cttccggctg\n     1561 gctggtttat tgctgataaa tctggagccg gtgagcgtgg gtctcgcggt atcattgcag\n     1621 cactggggcc agatggtaag ccctcccgta tcgtagttat ctacacgacg gggagtcagg\n     1681 caactatgga tgaacgaaat agacagatcg ctgagatagg tgcctcactg attaagcatt\n     1741 ggtaactgtc agaccaagtt tactcatata tactttagat tgatttaaaa cttcattttt\n     1801 aatttaaaag gatctaggtg aagatccttt ttgataatct catgaccaaa atcccttaac\n     1861 gtgagttttc gttccactga gcgtcagacc ccgtagaaaa gatcaaagga tcttcttgag\n     1921 atcctttttt tctgcgcgta atctgctgct tgcaaacaaa aaaaccaccg ctaccagcgg\n     1981 tggtttgttt gccggatcaa gagctaccaa ctctttttcc gaaggtaact ggcttcagca\n     2041 gagcgcagat accaaatact gttcttctag tgtagccgta gttaggccac cacttcaaga\n     2101 actctgtagc accgcctaca tacctcgctc tgctaatcct gttaccagtg gctgctgcca\n     2161 gtggcgataa gtcgtgtctt accgggttgg actcaagacg atagttaccg gataaggcgc\n     2221 agcggtcggg ctgaacgggg ggttcgtgca cacagcccag cttggagcga acgacctaca\n     2281 ccgaactgag atacctacag cgtgagctat gagaaagcgc cacgcttccc gaagggagaa\n     2341 aggcggacag gtatccggta agcggcaggg tcggaacagg agagcgcacg agggagcttc\n     2401 cagggggaaa cgcctggtat ctttatagtc ctgtcgggtt tcgccacctc tgacttgagc\n     2461 gtcgattttt gtgatgctcg tcaggggggc ggagcctatg gaaaaacgcc agcaacgcgg\n     2521 cctttttacg gttcctggcc ttttgctggc cttttgctca catgttcttt cctgcgttat\n     2581 cccctgattc tgtggataac cgtattaccg cctttgagtg agctgatacc gctcgccgca\n     2641 gccgaacgac cgagcgcagc gagtcagtga gcgaggaagc ggaaga\n//"
+    },
+    {
+      "id": 2,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       AEVGFPA                  966 bp    DNA     linear   INV 26-APR-1993\nDEFINITION  Aequorea victoria green-fluorescent protein mRNA, complete cds.\nACCESSION   M62653\nVERSION     M62653.1\nKEYWORDS    aequorin-associated energy-transfer acceptor; bioluminescence;\n            green-fluorescent protein; photocyte.\nSOURCE      Aequorea victoria\n  ORGANISM  Aequorea victoria\n            Eukaryota; Metazoa; Cnidaria; Hydrozoa; Hydroidolina; Leptothecata;\n            Aequoreidae; Aequorea.\nREFERENCE   1  (bases 1 to 966)\n  AUTHORS   Prasher,D.C., Eckenrode,V.K., Ward,W.W., Prendergast,F.G. and\n            Cormier,M.J.\n  TITLE     Primary structure of the Aequorea victoria green-fluorescent protein\n  JOURNAL   Gene 111 (2), 229-233 (1992)\n   PUBMED   1347277\nCOMMENT     Original source text: Aequorea victoria (library: lambda gt10) cDNA\n            to mRNA.\nFEATURES             Location/Qualifiers\n     source          1..966\n                     /organism=\"Aequorea victoria\"\n                     /mol_type=\"mRNA\"\n                     /db_xref=\"taxon:6100\"\n                     /tissue_lib=\"lambda gt10\"\n     gene            1..966\n                     /gene=\"GFP\"\n     CDS             26..742\n                     /gene=\"GFP\"\n                     /codon_start=1\n                     /product=\"green-fluorescent protein\"\n                     /protein_id=\"AAA27721.1\"\n                     /translation=\"MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLK\n                     FICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDG\n                     NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKV\n                     NFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLE\n                     FVTAAGITHGMDELYK\"\n     misc_feature    218..226\n                     /gene=\"GFP\"\n                     /experiment=\"experimental evidence, no additional details\n                     recorded\"\n                     /note=\"fluorescent chromophore\"\nORIGIN\n        1 tacacacgaa taaaagataa caaagatgag taaaggagaa gaacttttca ctggagttgt\n       61 cccaattctt gttgaattag atggtgatgt taatgggcac aaattttctg tcagtggaga\n      121 gggtgaaggt gatgcaacat acggaaaact tacccttaaa tttatttgca ctactggaaa\n      181 actacctgtt ccatggccaa cacttgtcac tactttctct tatggtgttc aatgcttttc\n      241 aagataccca gatcatatga aacagcatga ctttttcaag agtgccatgc ccgaaggtta\n      301 tgtacaggaa agaactatat ttttcaaaga tgacgggaac tacaagacac gtgctgaagt\n      361 caagtttgaa ggtgataccc ttgttaatag aatcgagtta aaaggtattg attttaaaga\n      421 agatggaaac attcttggac acaaattgga atacaactat aactcacaca atgtatacat\n      481 catggcagac aaacaaaaga atggaatcaa agttaacttc aaaattagac acaacattga\n      541 agatggaagc gttcaactag cagaccatta tcaacaaaat actccaattg gcgatggccc\n      601 tgtcctttta ccagacaacc attacctgtc cacacaatct gccctttcga aagatcccaa\n      661 cgaaaagaga gaccacatgg tccttcttga gtttgtaaca gctgctggga ttacacatgg\n      721 catggatgaa ctatacaaat aaatgtccag acttccaatt gacactaaag tgtccgaaca\n      781 attactaaaa tctcagggtt cctggttaaa ttcaggctga gatattattt atatatttat\n      841 agattcatta aaattgtatg aataatttat tgatgttatt gatagaggtt attttcttat\n      901 taaacaggct acttggagtg tattcttaat tctatattaa ttacaatttg atttgacttg\n      961 ctcaaa\n//"
+    },
+    {
+      "id": 3,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       Native_GFP               717 bp    DNA     linear   INV 26-APR-1993\nDEFINITION  Aequorea victoria green-fluorescent protein mRNA, complete cds.\nACCESSION   3\nVERSION     3\nKEYWORDS    aequorin-associated energy-transfer acceptor; bioluminescence;\n            green-fluorescent protein; photocyte.\nSOURCE      Aequorea victoria\n  ORGANISM  Aequorea victoria\n            Eukaryota; Metazoa; Cnidaria; Hydrozoa; Hydroidolina; Leptothecata;\n            Aequoreidae; Aequorea.\nREFERENCE   1  (bases 1 to 966)\n  AUTHORS   Prasher,D.C., Eckenrode,V.K., Ward,W.W., Prendergast,F.G. and\n            Cormier,M.J.\n  TITLE     Primary structure of the Aequorea victoria green-fluorescent protein\n  JOURNAL   Gene 111 (2), 229-233 (1992)\n   PUBMED   1347277\nCOMMENT     Original source text: Aequorea victoria (library: lambda gt10) cDNA\n            to mRNA.\nFEATURES             Location/Qualifiers\n     CDS             1..717\n                     /gene=\"GFP\"\n                     /codon_start=1\n                     /product=\"green-fluorescent protein\"\n                     /protein_id=\"AAA27721.1\"\n                     /translation=\"MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLK\n                     FICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDG\n                     NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKV\n                     NFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLE\n                     FVTAAGITHGMDELYK\"\n     misc_feature    193..201\n                     /gene=\"GFP\"\n                     /experiment=\"experimental evidence, no additional details\n                     recorded\"\n                     /note=\"fluorescent chromophore\"\nORIGIN\n        1 atgagtaaag gagaagaact tttcactgga gttgtcccaa ttcttgttga attagatggt\n       61 gatgttaatg ggcacaaatt ttctgtcagt ggagagggtg aaggtgatgc aacatacgga\n      121 aaacttaccc ttaaatttat ttgcactact ggaaaactac ctgttccatg gccaacactt\n      181 gtcactactt tctcttatgg tgttcaatgc ttttcaagat acccagatca tatgaaacag\n      241 catgactttt tcaagagtgc catgcccgaa ggttatgtac aggaaagaac tatatttttc\n      301 aaagatgacg ggaactacaa gacacgtgct gaagtcaagt ttgaaggtga tacccttgtt\n      361 aatagaatcg agttaaaagg tattgatttt aaagaagatg gaaacattct tggacacaaa\n      421 ttggaataca actataactc acacaatgta tacatcatgg cagacaaaca aaagaatgga\n      481 atcaaagtta acttcaaaat tagacacaac attgaagatg gaagcgttca actagcagac\n      541 cattatcaac aaaatactcc aattggcgat ggccctgtcc ttttaccaga caaccattac\n      601 ctgtccacac aatctgccct ttcgaaagat cccaacgaaa agagagacca catggtcctt\n      661 cttgagtttg taacagctgc tgggattaca catggcatgg atgaactata caaataa\n//"
+    },
+    {
+      "id": 4,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       GFP_GS_His6              741 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  Engineered GFP ORF (native stop removed), Gly-Ser linker, His6 tag,\n            terminal TAA; no cloning flanks.\nACCESSION   GFP_GS_His6\nVERSION     GFP_GS_His6\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\n     CDS             1..741\n                     /label=\"GFP-GS-His6\"\n                     /product=\"GFP with C-terminal Gly-Ser-His6 tag\"\n                     /translation=\"MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLK\n                     FICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDG\n                     NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKV\n                     NFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLE\n                     FVTAAGITHGMDELYKGSHHHHHH\"\n     misc_feature    715..720\n                     /label=\"Gly-Ser linker\"\n     misc_feature    721..738\n                     /label=\"His6 tag\"\nORIGIN\n        1 atgagtaaag gagaagaact tttcactgga gttgtcccaa ttcttgttga attagatggt\n       61 gatgttaatg ggcacaaatt ttctgtcagt ggagagggtg aaggtgatgc aacatacgga\n      121 aaacttaccc ttaaatttat ttgcactact ggaaaactac ctgttccatg gccaacactt\n      181 gtcactactt tctcttatgg tgttcaatgc ttttcaagat acccagatca tatgaaacag\n      241 catgactttt tcaagagtgc catgcccgaa ggttatgtac aggaaagaac tatatttttc\n      301 aaagatgacg ggaactacaa gacacgtgct gaagtcaagt ttgaaggtga tacccttgtt\n      361 aatagaatcg agttaaaagg tattgatttt aaagaagatg gaaacattct tggacacaaa\n      421 ttggaataca actataactc acacaatgta tacatcatgg cagacaaaca aaagaatgga\n      481 atcaaagtta acttcaaaat tagacacaac attgaagatg gaagcgttca actagcagac\n      541 cattatcaac aaaatactcc aattggcgat ggccctgtcc ttttaccaga caaccattac\n      601 ctgtccacac aatctgccct ttcgaaagat cccaacgaaa agagagacca catggtcctt\n      661 cttgagtttg taacagctgc tgggattaca catggcatgg atgaactata caaaggttcc\n      721 caccaccacc accaccacta a\n//"
+    },
+    {
+      "id": 9,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       pUCR19_BbsI             2695 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   9\nVERSION     9\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\n     misc_feature    19..176\n                     /note=\"Lac-Operon\"\n     misc_feature    complement(177..276)\n                     /note=\"pBR322\"\n     misc_feature    complement(277..413)\n                     /note=\"pBR322\"\n     misc_feature    complement(414..2415)\n                     /note=\"pBR322\"\n     misc_feature    2416..2645\n                     /note=\"Lac-operon\"\nORIGIN\n        1 gctaacgaag acaactaaac tggccgtcgt tttacaacgt cgtgactggg aaaaccctgg\n       61 cgttacccaa cttaatcgcc ttgcagcaca tccccctttc gccagctggc gtaatagcga\n      121 agaggcccgc accgatcgcc cttcccaaca gttgcgcagc ctgaatggcg aatggcgcct\n      181 gatgcggtat tttctcctta cgcatctgtg cggtatttca caccgcatat ggtgcactct\n      241 cagtacaatc tgctctgatg ccgcatagtt aagccagccc cgacacccgc caacacccgc\n      301 tgacgcgccc tgacgggctt gtctgctccc ggcatccgct tacagacaag ctgtgaccgt\n      361 ctccgggagc tgcatgtgtc agaggttttc accgtcatca ccgaaacgcg cgagacgaaa\n      421 gggcctcgtg atacgcctat ttttataggt taatgtcatg ataataatgg tttcttagac\n      481 gtcaggtggc acttttcggg gaaatgtgcg cggaacccct atttgtttat ttttctaaat\n      541 acattcaaat atgtatccgc tcatgagaca ataaccctga taaatgcttc aataatattg\n      601 aaaaaggaag agtatgagta ttcaacattt ccgtgtcgcc cttattccct tttttgcggc\n      661 attttgcctt cctgtttttg ctcacccaga aacgctggtg aaagtaaaag atgctgaaga\n      721 tcagttgggt gcacgagtgg gttacatcga actggatctc aacagcggta agatccttga\n      781 gagttttcgc cccgaagaac gttttccaat gatgagcact tttaaagttc tgctatgtgg\n      841 cgcggtatta tcccgtattg acgccgggca agagcaactc ggtcgccgca tacactattc\n      901 tcagaatgac ttggttgagt actcaccagt cacagaaaag catcttacgg atggcatgac\n      961 agtaagagaa ttatgcagtg ctgccataac catgagtgat aacactgcgg ccaacttact\n     1021 tctgacaacg atcggaggac cgaaggagct aaccgctttt ttgcacaaca tgggggatca\n     1081 tgtaactcgc cttgatcgtt gggaaccgga gctgaatgaa gccataccaa acgacgagcg\n     1141 tgacaccacg atgcctgtag caatggcaac aacgttgcgc aaactattaa ctggcgaact\n     1201 acttactcta gcttcccggc aacaattaat agactggatg gaggcggata aagttgcagg\n     1261 accacttctg cgctcggccc ttccggctgg ctggtttatt gctgataaat ctggagccgg\n     1321 tgagcgtggg tctcgcggta tcattgcagc actggggcca gatggtaagc cctcccgtat\n     1381 cgtagttatc tacacgacgg ggagtcaggc aactatggat gaacgaaata gacagatcgc\n     1441 tgagataggt gcctcactga ttaagcattg gtaactgtca gaccaagttt actcatatat\n     1501 actttagatt gatttaaaac ttcattttta atttaaaagg atctaggtga agatcctttt\n     1561 tgataatctc atgaccaaaa tcccttaacg tgagttttcg ttccactgag cgtcagaccc\n     1621 cgtagaaaag atcaaaggat cttcttgaga tccttttttt ctgcgcgtaa tctgctgctt\n     1681 gcaaacaaaa aaaccaccgc taccagcggt ggtttgtttg ccggatcaag agctaccaac\n     1741 tctttttccg aaggtaactg gcttcagcag agcgcagata ccaaatactg ttcttctagt\n     1801 gtagccgtag ttaggccacc acttcaagaa ctctgtagca ccgcctacat acctcgctct\n     1861 gctaatcctg ttaccagtgg ctgctgccag tggcgataag tcgtgtctta ccgggttgga\n     1921 ctcaagacga tagttaccgg ataaggcgca gcggtcgggc tgaacggggg gttcgtgcac\n     1981 acagcccagc ttggagcgaa cgacctacac cgaactgaga tacctacagc gtgagctatg\n     2041 agaaagcgcc acgcttcccg aagggagaaa ggcggacagg tatccggtaa gcggcagggt\n     2101 cggaacagga gagcgcacga gggagcttcc agggggaaac gcctggtatc tttatagtcc\n     2161 tgtcgggttt cgccacctct gacttgagcg tcgatttttg tgatgctcgt caggggggcg\n     2221 gagcctatgg aaaaacgcca gcaacgcggc ctttttacgg ttcctggcct tttgctggcc\n     2281 ttttgctcac atgttctttc ctgcgttatc ccctgattct gtggataacc gtattaccgc\n     2341 ctttgagtga gctgataccg ctcgccgcag ccgaacgacc gagcgcagcg agtcagtgag\n     2401 cgaggaagcg gaagagcgcc caatacgcaa accgcctctc cccgcgcgtt ggccgattca\n     2461 ttaatgcagc tggcacgaca ggtttcccga ctggaaagcg ggcagtgagc gcaacgcaat\n     2521 taatgtgagt tagctcactc attaggcacc ccaggcttta cactttatgc ttccggctcg\n     2581 tatgttgtgt ggaattgtga gcggataaca atttcacaca ggaaacagct atgaccatga\n     2641 ttacgccaag cttgcatgcc tgcaggtcga ctctagaatg attgtcttcg ttagc\n//"
+    },
+    {
+      "id": 10,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       GFP_BbsI                 769 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   10\nVERSION     10\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\n     CDS             15..755\n                     /label=\"GFP-GS-His6\"\n                     /product=\"GFP with C-terminal Gly-Ser-His6 tag\"\n                     /translation=\"MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLK\n                     FICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDG\n                     NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKV\n                     NFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLE\n                     FVTAAGITHGMDELYKGSHHHHHH\"\n     misc_feature    729..734\n                     /label=\"Gly-Ser linker\"\n     misc_feature    735..752\n                     /label=\"His6 tag\"\nORIGIN\n        1 gctaacgaag acaaatgagt aaaggagaag aacttttcac tggagttgtc ccaattcttg\n       61 ttgaattaga tggtgatgtt aatgggcaca aattttctgt cagtggagag ggtgaaggtg\n      121 atgcaacata cggaaaactt acccttaaat ttatttgcac tactggaaaa ctacctgttc\n      181 catggccaac acttgtcact actttctctt atggtgttca atgcttttca agatacccag\n      241 atcatatgaa acagcatgac tttttcaaga gtgccatgcc cgaaggttat gtacaggaaa\n      301 gaactatatt tttcaaagat gacgggaact acaagacacg tgctgaagtc aagtttgaag\n      361 gtgataccct tgttaataga atcgagttaa aaggtattga ttttaaagaa gatggaaaca\n      421 ttcttggaca caaattggaa tacaactata actcacacaa tgtatacatc atggcagaca\n      481 aacaaaagaa tggaatcaaa gttaacttca aaattagaca caacattgaa gatggaagcg\n      541 ttcaactagc agaccattat caacaaaata ctccaattgg cgatggccct gtccttttac\n      601 cagacaacca ttacctgtcc acacaatctg ccctttcgaa agatcccaac gaaaagagag\n      661 accacatggt ccttcttgag tttgtaacag ctgctgggat tacacatggc atggatgaac\n      721 tatacaaagg ttcccaccac caccaccacc actaattgtc ttcgttagc\n//"
+    },
+    {
+      "id": 11,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       pUCR19_GFP_GG_Ligation  3400 bp    DNA     circular UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   11\nVERSION     11\nKEYWORDS    [; '; '; ].\nSOURCE      \n  ORGANISM  .\n            [; ].\nFEATURES             Location/Qualifiers\n     misc_feature    5..162\n                     /note=\"Lac-Operon\"\n     misc_feature    complement(163..262)\n                     /note=\"pBR322\"\n     misc_feature    complement(263..399)\n                     /note=\"pBR322\"\n     misc_feature    complement(400..2401)\n                     /note=\"pBR322\"\n     misc_feature    2402..2631\n                     /note=\"Lac-operon\"\n     CDS             join(2664..3400,1..4)\n                     /label=\"GFP-GS-His6\"\n                     /product=\"GFP with C-terminal Gly-Ser-His6 tag\"\n                     /translation=\"MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLK\n                     FICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDG\n                     NYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKV\n                     NFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLE\n                     FVTAAGITHGMDELYKGSHHHHHH\"\n     misc_feature    3378..3383\n                     /label=\"Gly-Ser linker\"\n     misc_feature    join(3384..3400,1)\n                     /label=\"His6 tag\"\nORIGIN\n        1 ctaaactggc cgtcgtttta caacgtcgtg actgggaaaa ccctggcgtt acccaactta\n       61 atcgccttgc agcacatccc cctttcgcca gctggcgtaa tagcgaagag gcccgcaccg\n      121 atcgcccttc ccaacagttg cgcagcctga atggcgaatg gcgcctgatg cggtattttc\n      181 tccttacgca tctgtgcggt atttcacacc gcatatggtg cactctcagt acaatctgct\n      241 ctgatgccgc atagttaagc cagccccgac acccgccaac acccgctgac gcgccctgac\n      301 gggcttgtct gctcccggca tccgcttaca gacaagctgt gaccgtctcc gggagctgca\n      361 tgtgtcagag gttttcaccg tcatcaccga aacgcgcgag acgaaagggc ctcgtgatac\n      421 gcctattttt ataggttaat gtcatgataa taatggtttc ttagacgtca ggtggcactt\n      481 ttcggggaaa tgtgcgcgga acccctattt gtttattttt ctaaatacat tcaaatatgt\n      541 atccgctcat gagacaataa ccctgataaa tgcttcaata atattgaaaa aggaagagta\n      601 tgagtattca acatttccgt gtcgccctta ttcccttttt tgcggcattt tgccttcctg\n      661 tttttgctca cccagaaacg ctggtgaaag taaaagatgc tgaagatcag ttgggtgcac\n      721 gagtgggtta catcgaactg gatctcaaca gcggtaagat ccttgagagt tttcgccccg\n      781 aagaacgttt tccaatgatg agcactttta aagttctgct atgtggcgcg gtattatccc\n      841 gtattgacgc cgggcaagag caactcggtc gccgcataca ctattctcag aatgacttgg\n      901 ttgagtactc accagtcaca gaaaagcatc ttacggatgg catgacagta agagaattat\n      961 gcagtgctgc cataaccatg agtgataaca ctgcggccaa cttacttctg acaacgatcg\n     1021 gaggaccgaa ggagctaacc gcttttttgc acaacatggg ggatcatgta actcgccttg\n     1081 atcgttggga accggagctg aatgaagcca taccaaacga cgagcgtgac accacgatgc\n     1141 ctgtagcaat ggcaacaacg ttgcgcaaac tattaactgg cgaactactt actctagctt\n     1201 cccggcaaca attaatagac tggatggagg cggataaagt tgcaggacca cttctgcgct\n     1261 cggcccttcc ggctggctgg tttattgctg ataaatctgg agccggtgag cgtgggtctc\n     1321 gcggtatcat tgcagcactg gggccagatg gtaagccctc ccgtatcgta gttatctaca\n     1381 cgacggggag tcaggcaact atggatgaac gaaatagaca gatcgctgag ataggtgcct\n     1441 cactgattaa gcattggtaa ctgtcagacc aagtttactc atatatactt tagattgatt\n     1501 taaaacttca tttttaattt aaaaggatct aggtgaagat cctttttgat aatctcatga\n     1561 ccaaaatccc ttaacgtgag ttttcgttcc actgagcgtc agaccccgta gaaaagatca\n     1621 aaggatcttc ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac\n     1681 caccgctacc agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg\n     1741 taactggctt cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag\n     1801 gccaccactt caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac\n     1861 cagtggctgc tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt\n     1921 taccggataa ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg\n     1981 agcgaacgac ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc\n     2041 ttcccgaagg gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc\n     2101 gcacgaggga gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc\n     2161 acctctgact tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa\n     2221 acgccagcaa cgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt\n     2281 tctttcctgc gttatcccct gattctgtgg ataaccgtat taccgccttt gagtgagctg\n     2341 ataccgctcg ccgcagccga acgaccgagc gcagcgagtc agtgagcgag gaagcggaag\n     2401 agcgcccaat acgcaaaccg cctctccccg cgcgttggcc gattcattaa tgcagctggc\n     2461 acgacaggtt tcccgactgg aaagcgggca gtgagcgcaa cgcaattaat gtgagttagc\n     2521 tcactcatta ggcaccccag gctttacact ttatgcttcc ggctcgtatg ttgtgtggaa\n     2581 ttgtgagcgg ataacaattt cacacaggaa acagctatga ccatgattac gccaagcttg\n     2641 catgcctgca ggtcgactct agaatgagta aaggagaaga acttttcact ggagttgtcc\n     2701 caattcttgt tgaattagat ggtgatgtta atgggcacaa attttctgtc agtggagagg\n     2761 gtgaaggtga tgcaacatac ggaaaactta cccttaaatt tatttgcact actggaaaac\n     2821 tacctgttcc atggccaaca cttgtcacta ctttctctta tggtgttcaa tgcttttcaa\n     2881 gatacccaga tcatatgaaa cagcatgact ttttcaagag tgccatgccc gaaggttatg\n     2941 tacaggaaag aactatattt ttcaaagatg acgggaacta caagacacgt gctgaagtca\n     3001 agtttgaagg tgataccctt gttaatagaa tcgagttaaa aggtattgat tttaaagaag\n     3061 atggaaacat tcttggacac aaattggaat acaactataa ctcacacaat gtatacatca\n     3121 tggcagacaa acaaaagaat ggaatcaaag ttaacttcaa aattagacac aacattgaag\n     3181 atggaagcgt tcaactagca gaccattatc aacaaaatac tccaattggc gatggccctg\n     3241 tccttttacc agacaaccat tacctgtcca cacaatctgc cctttcgaaa gatcccaacg\n     3301 aaaagagaga ccacatggtc cttcttgagt ttgtaacagc tgctgggatt acacatggca\n     3361 tggatgaact atacaaaggt tcccaccacc accaccacca\n//"
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "type": "UploadedFileSource",
+      "output_name": null,
+      "database_id": null,
+      "input": [],
+      "sequence_file_format": "genbank",
+      "file_name": "pUC19_M77789.gb",
+      "index_in_file": 0,
+      "circularize": false,
+      "coordinates": null
+    },
+    {
+      "id": 2,
+      "type": "UploadedFileSource",
+      "output_name": null,
+      "database_id": null,
+      "input": [],
+      "sequence_file_format": "genbank",
+      "file_name": "GFP_M62653.gb",
+      "index_in_file": 0,
+      "circularize": false,
+      "coordinates": null
+    },
+    {
+      "id": 3,
+      "type": "UploadedFileSource",
+      "output_name": "Native_GFP",
+      "database_id": null,
+      "input": [],
+      "sequence_file_format": "genbank",
+      "file_name": "GFP_M62653.gb",
+      "index_in_file": 0,
+      "circularize": false,
+      "coordinates": "26..742"
+    },
+    {
+      "id": 4,
+      "type": "UploadedFileSource",
+      "output_name": null,
+      "database_id": null,
+      "input": [],
+      "sequence_file_format": "genbank",
+      "file_name": "GFP_GS_His6_ORF_741bp.gb",
+      "index_in_file": 0,
+      "circularize": false,
+      "coordinates": null
+    },
+    {
+      "id": 9,
+      "type": "PCRSource",
+      "output_name": "pUCR19_BbsI",
+      "database_id": null,
+      "input": [
+        {
+          "type": "AssemblyFragment",
+          "sequence": 5,
+          "left_location": null,
+          "right_location": "19..42",
+          "reverse_complemented": false
+        },
+        {
+          "type": "AssemblyFragment",
+          "sequence": 1,
+          "left_location": "290..313",
+          "right_location": "239..262",
+          "reverse_complemented": false
+        },
+        {
+          "type": "AssemblyFragment",
+          "sequence": 6,
+          "left_location": "1..24",
+          "right_location": null,
+          "reverse_complemented": true
+        }
+      ],
+      "circular": false,
+      "add_primer_features": false
+    },
+    {
+      "id": 10,
+      "type": "PCRSource",
+      "output_name": "GFP_BbsI",
+      "database_id": null,
+      "input": [
+        {
+          "type": "AssemblyFragment",
+          "sequence": 7,
+          "left_location": null,
+          "right_location": "15..42",
+          "reverse_complemented": false
+        },
+        {
+          "type": "AssemblyFragment",
+          "sequence": 4,
+          "left_location": "1..28",
+          "right_location": "714..741",
+          "reverse_complemented": false
+        },
+        {
+          "type": "AssemblyFragment",
+          "sequence": 8,
+          "left_location": "1..28",
+          "right_location": null,
+          "reverse_complemented": true
+        }
+      ],
+      "circular": false,
+      "add_primer_features": false
+    },
+    {
+      "id": 11,
+      "type": "RestrictionAndLigationSource",
+      "output_name": "pUCR19_GFP_GG_Ligation",
+      "database_id": null,
+      "input": [
+        {
+          "type": "AssemblyFragment",
+          "sequence": 9,
+          "left_location": "15..18",
+          "right_location": "2678..2681",
+          "reverse_complemented": false
+        },
+        {
+          "type": "AssemblyFragment",
+          "sequence": 10,
+          "left_location": "15..18",
+          "right_location": "752..755",
+          "reverse_complemented": false
+        }
+      ],
+      "circular": true,
+      "restriction_enzymes": [
+        "BbsI"
+      ]
+    }
+  ],
+  "description": "",
+  "primers": [
+    {
+      "id": 5,
+      "name": "GG_pUC19_F",
+      "sequence": "GCTAACGAAGACAACTAAACTGGCCGTCGTTTTACAACGTCG"
+    },
+    {
+      "id": 6,
+      "name": "GG_pUC19_R",
+      "sequence": "GCTAACGAAGACAATCATTCTAGAGTCGACCTGCAGGCATGC"
+    },
+    {
+      "id": 7,
+      "name": "GG_GFP_F",
+      "sequence": "GCTAACGAAGACAAATGAGTAAAGGAGAAGAACTTTTCACTG"
+    },
+    {
+      "id": 8,
+      "name": "GG_GFP_R",
+      "sequence": "GCTAACGAAGACAATTAGTGGTGGTGGTGGTGGTGGGAACCT"
+    }
+  ],
+  "backend_version": "1.10.0",
+  "schema_version": "1.0.0",
+  "frontend_version": "1.10.0"
+}

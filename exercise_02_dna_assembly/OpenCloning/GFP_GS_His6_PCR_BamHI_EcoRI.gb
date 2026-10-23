@@ -1,0 +1,38 @@
+LOCUS       GFP_GS_His6_PCR_BamHI_EcoRI         765 bp    DNA     linear   SYN 15-OCT-2026
+DEFINITION  description.
+ACCESSION  6
+VERSION  6
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    205..213
+                     /label="GFP"
+                     /experiment="experimental evidence, no additional detailsr
+                     ecorded"
+                     /note="fluorescent chromophore"
+     primer_bind     1..36
+                     /label="GFP_GS_His6_BamHI_F"
+                     /note="sequence: GACTACGGATCCATGAGTAAAGGAGAAGAACTTTTC"
+                     /primerBindsOn="3prime"
+     primer_bind     complement(703..765)
+                     /label="GFP_GS_His6_EcoRI_R"
+                     /note="sequence: CGTACAGAATTCTTAGTGGTGGTGGTGGTGGTGGGAACCTT
+                     TGTATAGTTCATCCATGCCATG"
+                     /primerBindsOn="3prime"
+ORIGIN      
+        1 gactacggat ccatgagtaa aggagaagaa cttttcactg gagttgtccc aattcttgtt
+       61 gaattagatg gtgatgttaa tgggcacaaa ttttctgtca gtggagaggg tgaaggtgat
+      121 gcaacatacg gaaaacttac ccttaaattt atttgcacta ctggaaaact acctgttcca
+      181 tggccaacac ttgtcactac tttctcttat ggtgttcaat gcttttcaag atacccagat
+      241 catatgaaac agcatgactt tttcaagagt gccatgcccg aaggttatgt acaggaaaga
+      301 actatatttt tcaaagatga cgggaactac aagacacgtg ctgaagtcaa gtttgaaggt
+      361 gatacccttg ttaatagaat cgagttaaaa ggtattgatt ttaaagaaga tggaaacatt
+      421 cttggacaca aattggaata caactataac tcacacaatg tatacatcat ggcagacaaa
+      481 caaaagaatg gaatcaaagt taacttcaaa attagacaca acattgaaga tggaagcgtt
+      541 caactagcag accattatca acaaaatact ccaattggcg atggccctgt ccttttacca
+      601 gacaaccatt acctgtccac acaatctgcc ctttcgaaag atcccaacga aaagagagac
+      661 cacatggtcc ttcttgagtt tgtaacagct gctgggatta cacatggcat ggatgaacta
+      721 tacaaaggtt cccaccacca ccaccaccac taagaattct gtacg 
+//

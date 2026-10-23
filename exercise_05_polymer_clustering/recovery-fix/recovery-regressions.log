@@ -1,0 +1,15 @@
+test_active_controller_rejected (test_recovery.RecoveryTests.test_active_controller_rejected) ... ok
+test_changed_plan_and_corrupt_completed_output_rejected (test_recovery.RecoveryTests.test_changed_plan_and_corrupt_completed_output_rejected) ... ok
+test_install_preserves_jobs_results_and_unknown_time_and_is_idempotent (test_recovery.RecoveryTests.test_install_preserves_jobs_results_and_unknown_time_and_is_idempotent) ... ok
+test_known_durations_and_invalid_durations (test_recovery.RecoveryTests.test_known_durations_and_invalid_durations) ... ok
+test_preview_is_read_only (test_recovery.RecoveryTests.test_preview_is_read_only) ... ok
+test_resumed_batch_finalizes_ensemble_with_missing_old_duration (test_recovery.RecoveryTests.test_resumed_batch_finalizes_ensemble_with_missing_old_duration) ... ok
+test_source_first_power_loss_can_be_repaired (test_recovery.RecoveryTests.test_source_first_power_loss_can_be_repaired) ... ok
+test_unknown_duration_stays_unknown (test_recovery.RecoveryTests.test_unknown_duration_stays_unknown) ... ok
+test_unsupported_source_and_changed_environment_rejected (test_recovery.RecoveryTests.test_unsupported_source_and_changed_environment_rejected) ... ok
+test_write_failure_rolls_back_both_files (test_recovery.RecoveryTests.test_write_failure_rolls_back_both_files) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.984s
+
+OK
